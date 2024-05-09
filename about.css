@@ -127,8 +127,8 @@
   
   .popup-box {
 	width: 150%;
-	height: 100%;
-	padding: 50px 75px;
+	height: 150%;
+	padding: 50px 80px;
 	transform: translate(-50%, -50%) scale(0.5);
 	position: absolute;
 	top: 50%;
