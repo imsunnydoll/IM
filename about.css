@@ -1,12 +1,13 @@
 .hovereffect {
-    height: 100%;
-    float: left;
-    overflow: hidden;
-    text-align: center;
-    cursor: default;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+	text-align: center;
+	cursor: default;
 }
+
 .hovereffect .overlay {
-    overflow: hidden;
+	overflow: hidden;
 	bottom: 0;
 	padding: 1em;
 	height: 4.75em;
@@ -14,49 +15,50 @@
 	color: #3c4a50;
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
-	-webkit-transform: translate3d(0,100%,0);
-	transform: translate3d(0,100%,0);
+	-webkit-transform: translate3d(0, 100%, 0);
+	transform: translate3d(0, 100%, 0);
 	visibility: hidden;
 
 }
 
 .hovereffect img {
-    display: block;
-    position: relative;
+	display: block;
+	position: relative;
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
 }
 
 .hovereffect:hover img {
--webkit-transform: translate3d(0,-3%,0);
-	transform: translate3d(0,-3%,0);
+	-webkit-transform: translate3d(0, -3%, 0);
+	transform: translate3d(0, -3%, 0);
 }
 
 .hovereffect h2 {
-    text-transform: uppercase;
-    color: #fff;
-    text-align: center;
-    position: relative;
-    font-size: 17px;
-    padding: 10px;
-    background: rgba(0, 0, 0, 0.6);
+	text-transform: uppercase;
+	color: #fff;
+	text-align: center;
+	position: relative;
+	font-size: 17px;
+	padding: 10px;
+	background: rgba(0, 0, 0, 0.6);
 	float: left;
 	margin: 0px;
 	display: inline-block;
 }
 
 .hovereffect a.info {
-    display: inline-block;
-    text-decoration: none;
-    padding: 7px 14px;
-    text-transform: uppercase;
+	display: inline-block;
+	text-decoration: none;
+	padding: 7px 14px;
+	text-transform: uppercase;
 	color: #fff;
 	border: 1px solid #fff;
 	margin: 50px 0 0 0;
 	background-color: transparent;
 }
+
 .hovereffect a.info:hover {
-    box-shadow: 0 0 5px #fff;
+	box-shadow: 0 0 5px #fff;
 }
 
 
@@ -75,8 +77,8 @@
 .hovereffect p.icon-links a {
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
-	-webkit-transform: translate3d(0,200%,0);
-	transform: translate3d(0,200%,0);
+	-webkit-transform: translate3d(0, 200%, 0);
+	transform: translate3d(0, 200%, 0);
 	visibility: visible;
 }
 
@@ -91,8 +93,8 @@
 .hovereffect:hover .overlay,
 .hovereffect:hover h2,
 .hovereffect:hover p.icon-links a {
-	-webkit-transform: translate3d(0,0,0);
-	transform: translate3d(0,0,0);
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
 }
 
 .hovereffect:hover h2 {
@@ -114,6 +116,7 @@
 	-webkit-transition-delay: 0.2s;
 	transition-delay: 0.2s;
 }
+
 .popup-wrap {
 	width: 100%;
 	height: 100%;
@@ -123,9 +126,9 @@
 	left: 0px;
 	content: '';
 	background: rgba(0, 0, 0, 0.85);
-  }
-  
-  .popup-box {
+}
+
+.popup-box {
 	width: 150%;
 	height: 150%;
 	padding: 50px 80px;
@@ -136,9 +139,9 @@
 	box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.5);
 	border-radius: 3px;
 	background: #fff;
-  }
-  
-  .close-btn {
+}
+
+.close-btn {
 	width: 50px;
 	height: 50px;
 	display: inline-block;
@@ -153,33 +156,71 @@
 	line-height: 40px;
 	font-size: 32px;
 	text-align: center;
-  }
-  
-  .transform-in, .transform-out {
+}
+
+.transform-in,
+.transform-out {
 	display: block;
 	-webkit-transition: all ease 0.5s;
 	transition: all ease 0.5s;
-  }
-  
-  .transform-in {
+}
+
+.transform-in {
 	-webkit-transform: translate(-50%, -50%) scale(1);
 	transform: translate(-50%, -50%) scale(1);
-  }
-  
-  .transform-out {
+}
+
+.transform-out {
 	-webkit-transform: translate(-50%, -50%) scale(0.5);
 	transform: translate(-50%, -50%) scale(0.5);
-  }
-  .fontA{
+}
+
+.fontA {
 	font-size: 40pt;
 	text-align: center;
-  }
-  .fontB{
+}
+
+.fontB {
 	font-size: 24pt;
 	text-align: center;
-  }
-  .fontC{
+}
+
+.fontC {
 	font-size: 24pt;
 	padding: 0 5px;
-  }
-  
+}
+
+/* SHAREBUTTONS ========================= */
+
+.sharebuttons a {
+	color: #fff !important;
+}
+
+.btn-facebook {
+	background: #3b5998;
+}
+
+.btn-instagram {
+	background: #ee0083;
+}
+.btn-facebook:hover {
+	background: #2f4679;
+}
+
+.btn-instagram:hover {
+	background: #bd002f;
+}
+
+/* ====================== end SHAREBUTTONS */
+
+
+
+/* For CodePen Demo */
+body {
+	font-size: 1.75em;
+	padding: 40px;
+}
+
+span {
+	display: none;
+}
